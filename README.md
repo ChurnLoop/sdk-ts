@@ -1,5 +1,9 @@
 # @churnloop/sdk
 
+[![npm version](https://img.shields.io/npm/v/@churnloop/sdk)](https://www.npmjs.com/package/@churnloop/sdk)
+[![license](https://img.shields.io/npm/l/@churnloop/sdk)](LICENSE)
+[![node](https://img.shields.io/node/v/@churnloop/sdk)](https://nodejs.org)
+
 Official JavaScript / TypeScript SDK for the [ChurnLoop](https://churnloop.com) analytics + intervention platform.
 
 - Isomorphic (Node 18+, every modern browser)
@@ -27,8 +31,8 @@ Official JavaScript / TypeScript SDK for the [ChurnLoop](https://churnloop.com) 
   - [Verifying webhooks in a Cloudflare Worker](#recipe-verifying-webhooks-in-a-cloudflare-worker)
 - [Privacy & consent](#privacy--consent)
 - [Error handling](#error-handling)
-- [Current limitations (v0.1.0)](#current-limitations-v010)
 - [Roadmap](#roadmap)
+- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -391,6 +395,12 @@ The transport surfaces a `TransportError` with a `retryable` flag.
 | **v0.3.0** | `pagehide` / `beforeExit` shutdown drains; browser `sendBeacon` for final flush; CSP-friendly distribution |
 | **v1.0.0** | Public API frozen; SemVer guarantees |
 | **Future** | Python SDK, Go SDK, vertical event specs (E-Commerce, Video) |
+
+---
+
+## Contributing
+
+Issues and PRs welcome at [github.com/ChurnLoop/sdk-ts](https://github.com/ChurnLoop/sdk-ts/issues).
 
 ---
 
